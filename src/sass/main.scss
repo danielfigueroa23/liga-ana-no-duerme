@@ -1,0 +1,78 @@
+div {
+  &.container-fluid {
+    text-align: center;
+  }
+  &#titles {
+    color: red;
+    border-radius: 30px;
+    border-color: red;
+    border-width: 0.5px; 
+    border-style: solid;
+  }
+}
+
+h1 {
+  color: white;
+}
+
+a {
+  flex: auto ;
+}
+
+img {
+  &.competidores {
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px red;
+  }
+}
+
+body {
+  font-family: 'Neuton', serif;
+}
+
+img {
+  &.logo-footer {
+    margin-top: 1rem;
+  }
+}
+
+ul {
+  &.redes-footer {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  &.reder-footer {
+    li {
+      margin: 10px;
+    }
+  }
+  &.redes-footer {
+    img {
+      width:80%;
+    }
+
+  }
+}
+
+div {
+  &#container-redes {
+    justify-content: center;
+  }
+  &#Copyright-container {
+    background-color: rgba(0, 0, 0, 0.05); 
+    color: white;
+  }
+}
+
+h6 {
+  &#text-redes {
+    text-align: center;
+  }
+}
+
+img {
+  &.logo-footer {
+    height: 15px;
+  }
+}
