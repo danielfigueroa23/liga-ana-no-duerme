@@ -88,12 +88,15 @@
           </div>
           <div class="col-5" style="background-color:  rgb(145, 37, 37); color: white;border-radius: 30px;">
             <h3 style="text-align: center;">Trago 2</h3>
-            <ul style="list-style: none;">
-              <li>Ingrediente 1</li>
-              <li>Ingrediente 2</li>
-              <li>Ingrediente 3</li>
-              <li>Ingrediente 4</li>
-            </ul>
+              <div style="background-color: green; display: flex; justify-content: center; text-align: center; margin:0px auto">
+                <ul style="list-style: none;   display: flex;flex-direction: column;
+                align-items: center;">
+                  <li>Ingrediente 1</li>
+                  <li>Ingrediente 2</li>
+                  <li>Ingrediente 3</li>
+                  <li>Ingrediente 4</li>
+                </ul>
+              </div>
             <div style="background-color: black;color:white; text-align: center; border-radius: 30px;" >
                 $ 500
             </div>
@@ -101,7 +104,7 @@
         </div>
     </div>
     <!-- Footer -->
-  <div class="col">
+  <div class="col" id="footer">
     <footer class="text-center text-lg-start text-muted">
       <section class="">
         <div class="container text-center text-md-start mt-5">
@@ -154,9 +157,20 @@
             <div class="col-12 mb-10">
             </div>
           </div>
-          <div class="row mt-10" style="margin-top: 50%;">
-            <div class="col-md-4"> <img src="./src/images/staff1.png" width="100%" height="100%"></div>
-            <div class="col-md-12 ms-auto" style="text-align: center; color: white;">Fabricio Bellocq</div>
+          <div class="row mt-10" style="margin-top: 10%;">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="col-md-12"> <img src="./src/images/banner.jpg" width="100%" height="100%"></div>
+                </div>
+                <div class="carousel-item">
+                <h1>Hoy Compiten</h1>
+                </div>
+                <div class="carousel-item">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -179,7 +193,7 @@
     $("#exampleModal").modal("show");
     setTimeout(function() { 
       $("#exampleModal").modal("hide");
-    }, 5000);
+    }, 13000);
   });
 </script>
 
