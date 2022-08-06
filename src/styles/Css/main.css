@@ -91,5 +91,9 @@ img.logo-footer {
   img.competidores {
     height: 70%;
   }
+  ul.recetas {
+    font-size: 12px;
+    margin-left: -15% !important;
+  }
 }
 /*# sourceMappingURL=main.css.map */
