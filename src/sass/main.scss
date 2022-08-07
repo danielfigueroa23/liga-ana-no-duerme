@@ -15,6 +15,14 @@ h1 {
   color: white;
 }
 
+h2 {
+  color: white;
+  &.title-presentacion {
+    font-family: 'Bellota', cursive;
+  }
+}
+
+
 a {
   flex: auto ;
 }
