@@ -12,6 +12,7 @@ div#titles {
 
 h1 {
   color: white;
+  text-align: center;
 }
 
 h2 {
@@ -22,10 +23,18 @@ h2.title-presentacion {
   font-family: 'Bellota', cursive;
 }
 
+h2.titleCocktails {
+  text-align: center;
+}
+
 a {
   -webkit-box-flex: 1;
       -ms-flex: auto;
           flex: auto;
+}
+
+a#title-page {
+  color: white;
 }
 
 img.competidores {
@@ -45,6 +54,24 @@ img.logo-footer {
 
 div#footer {
   color: white;
+}
+
+div#containerCompetidores {
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+}
+
+div#titleVS {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 ul.redes-footer {

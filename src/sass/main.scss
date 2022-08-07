@@ -13,6 +13,7 @@ div {
 
 h1 {
   color: white;
+  text-align: center;
 }
 
 h2 {
@@ -20,11 +21,17 @@ h2 {
   &.title-presentacion {
     font-family: 'Bellota', cursive;
   }
+  &.titleCocktails {
+    text-align: center;
+  }
 }
 
 
 a {
   flex: auto ;
+  &#title-page {
+    color: white;
+  }
 }
 
 img {
@@ -49,6 +56,16 @@ img {
 div {
   &#footer {
     color: white;
+  }
+  &#containerCompetidores {
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+  }
+  &#titleVS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
